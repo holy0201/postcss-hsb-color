@@ -1,0 +1,18 @@
+{
+  "name": "postcss-hsb-color",
+  "version": "1.0.0",
+  "description": "PostCSS plugin adding hsb() color.",
+  "keywords": [
+    "postcss",
+    "postcss-plugin",
+    "color",
+    "hsb",
+    "hsv"
+  ],
+  "main": "index.js",
+  "author": "holy0201",
+  "license": "MIT",
+  "dependencies": {
+    "postcss": "^5.2.8"
+  }
+}

@@ -14,7 +14,7 @@ function toHsl(hue, saturation, brightness) {
 		return [0, 0, 0];
 	}
 
-	return [hsl.hue, (hsl.saturation * 100).toFixed(0), (hsl.lightness * 100).toFixed(0)];
+	return [hsl.hue, (hsl.saturation * 100).toFixed(0) + '%', (hsl.lightness * 100).toFixed(0) + '%'];
 }
 
 function toRgb(hue, saturation, brightness) {
@@ -68,7 +68,7 @@ module.exports = postcss.plugin('postcss-hsb-color', function (options) {
 				resColor;
 
 			if (decl.value.match(/hsba?\(.*\)$/g)) {
-				hsb = postcss.list.comma(decl.value.replace(/[hsba?()]/g, ''));
+				hsb = postcss.list.comma(decl.value.replace(/[hsba?()%]/g, ''));
 
 				switch (output) {
 					case 'rgb':

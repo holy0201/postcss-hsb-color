@@ -1,4 +1,4 @@
-# postcss-hsb-color
+# postcss-hsb-color [![Build Status](https://travis-ci.org/holy0201/postcss-hsb-color.svg?branch=master)](https://travis-ci.org/holy0201/postcss-hsb-color)
 
 Postcss plugin adding hsb() color.
 

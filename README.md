@@ -20,7 +20,7 @@ Output:
 
 ```
 body {
-    color: hsl(100, 24%, 53%);
+    color: hsl(252, 24%, 53%);
 }
 ```
 

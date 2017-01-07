@@ -1,12 +1,12 @@
-# postcss hsb color
+# postcss-hsb-color
 
 Postcss plugin adding hsb() color.
 
-## installation
+## Installation
 
 `yarn add postcss-hsb-color`
 
-## usage
+## Usage
 
 Input:
 

@@ -11,7 +11,7 @@ function toHsl(hue, saturation, brightness) {
 		hsl.lightness = 0.5 * brightness * (2 - saturation);
 		hsl.saturation = (brightness * saturation) / (1 - Math.abs(2 * hsl.lightness - 1));
 	} else {
-		return[0, 0, 0];
+		return [0, 0, 0];
 	}
 
 	return [hsl.hue, (hsl.saturation * 100).toFixed(0), (hsl.lightness * 100).toFixed(0)];

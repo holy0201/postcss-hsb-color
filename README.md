@@ -12,7 +12,7 @@ Input:
 
 ```
 body {
-    color: hsb(100, 20%, 50%);
+    color: hsb(252, 35%, 64%);
 }
 ```
 
@@ -20,7 +20,7 @@ Output:
 
 ```
 body {
-    color: hsl(100, 20%, 50%);
+    color: hsl(100, 24%, 53%);
 }
 ```
 
